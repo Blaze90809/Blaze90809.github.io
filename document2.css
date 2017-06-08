@@ -1,21 +1,22 @@
 h1{
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: 40px
+  font-size: 200px
+  position: relative;
   }
 
 h2{
-  text-align: left;
+  text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 15px;
   font-weight: normal;
-  padding-left: 30px;
 }
 
 h3{
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 15px;
+  position: relative;
     }
 h4{
   font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
@@ -29,17 +30,20 @@ h4{
 }
 
 img {
- border: 1px solid #ddd;
+    position: absolute;
+    right: 5px;
+    top: 120px;
+    z-index: 0;
     border-radius: 5px;
     padding: 5px;
     width: 150px;
-    float: right;
-  }
+    border: 1px solid #ddd;
+}
 
 div {
     border: 0px solid black;
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
