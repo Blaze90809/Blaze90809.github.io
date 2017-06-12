@@ -1,6 +1,7 @@
 h1{
   text-align: left;
   padding-left: 60px;
+  padding-right: 60px;
   font-family: "Times New Roman", Times, serif;
   font-size: 40px
     }
@@ -35,19 +36,27 @@ h5{
 }
 
 img {
- border: 1px solid #ddd;
+    padding-right: 60px;
+    border: 1px solid #ddd;
     border-radius: 5px;
     padding: 5px;
     width: 200px;
-    float: right;
-    margin: 60px;
   }
 
+p {
+  text-align: justify
+}
+
 #information {
-    border: 1px solid black;
+    border: 0px solid black;
     margin: 5px;
     padding-top: 20px;
     padding-right: 60px;
     padding-bottom: 60px;
     padding-left: 60px;
+}
+
+#contact {
+    position: relative;
+    top: 0px;
 }
